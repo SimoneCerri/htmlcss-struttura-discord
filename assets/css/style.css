@@ -138,5 +138,23 @@ main{
 
 /* #region footer */
 
+#footer_section1{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    color: white;
+}
+
+#footer_section2 {
+    background-color: black;
+}
+
+.big_element{
+    flex-grow: 3;
+}
+
+.small_element{
+    flex-grow: 1;
+}
 
 /* #endregion footer */
