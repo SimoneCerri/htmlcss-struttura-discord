@@ -1,3 +1,5 @@
+/* #region debug */
+
 .debug header{
     height: 100px;
     background-color: red;
@@ -12,3 +14,70 @@
     height: 100px;
     background-color: blue;
 }
+ 
+
+/* #endregion debug */
+
+/* #region common */
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* #endregion common */
+
+
+
+/* #region utilities */
+
+/* #endregion utilities */
+
+
+
+/* #region header */
+#header_container{
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header_container > div{
+    background-color: aqua;
+    margin-top: 2.3rem;
+}
+
+.logo{
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.links {
+    flex-grow: 3;
+    text-align: center;
+}
+
+.login {
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 10rem;
+}
+
+
+/* #endregion header */
+
+
+
+/* #region main */
+
+
+/* #endregion main */
+
+
+
+/* #region footer */
+
+
+/* #endregion footer */
