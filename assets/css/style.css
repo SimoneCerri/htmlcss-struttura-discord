@@ -28,7 +28,7 @@ body{
 /* #endregion common */
 
 main{
-    padding: 0 2rem;
+    padding: 0 6rem;
 }
 
 /* #region utilities */
@@ -51,11 +51,11 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 #header_container > div{
     background-color: aqua;
-    margin-top: 2.3rem;
 }
 
 .logo{
