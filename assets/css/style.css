@@ -25,10 +25,15 @@ body{
     box-sizing: border-box;
     padding: 0;
 }
+
+header{
+    background-color: lightblue;
+}
+
 /* #endregion common */
 
 main{
-    padding: 0 6rem;
+    /* padding: 0 6rem; */
 }
 
 /* #region utilities */
@@ -55,7 +60,7 @@ main{
 }
 
 #header_container > div{
-    background-color: aqua;
+    background-color: rgb(255, 230, 0);
 }
 
 .logo{
@@ -82,23 +87,39 @@ main{
 
 /* #region main */
 .box{
-    background-color: blueviolet;
+    background-color: pink;
     text-align: center;
+    padding: 2rem 2rem;
+}
+
+#section1 {
+    background-color: blue;
+    /* height: 200px; */
 }
 
 #section2 {
+    background-color:white ;
     display: flex;
     justify-content: center;
+    padding: 3rem 3rem;
 }
 
 #section3 {
+    background-color: grey;
     display: flex;
     justify-content: center;
+    padding: 3rem 3rem;
 }
 
 #section4{
+    background-color: white;
     display: flex;
     justify-content: center;
+    padding: 3rem 3rem;
+}
+
+#section5{
+    background-color: grey;
 }
 
 .inside_box1{
