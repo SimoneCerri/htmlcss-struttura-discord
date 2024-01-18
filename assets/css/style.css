@@ -1,0 +1,14 @@
+.debug header{
+    height: 100px;
+    background-color: red;
+}
+
+.debug main{
+    height: 400px;
+    background-color: green;
+}
+
+.debug footer{
+    height: 100px;
+    background-color: blue;
+}
