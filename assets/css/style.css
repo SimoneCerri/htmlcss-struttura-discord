@@ -27,9 +27,19 @@ body{
 }
 /* #endregion common */
 
-
+main{
+    padding: 0 2rem;
+}
 
 /* #region utilities */
+
+:root{
+    --box1:color rgb(59, 59, 209);
+    --box2:color rgb(53, 199, 72);
+    --box3:color rgb(230, 93, 116);
+    --box-footer1:color rgb(254, 255, 192);
+    --box-footer2:color rgb(51, 173, 153);
+}
 
 /* #endregion utilities */
 
@@ -71,7 +81,35 @@ body{
 
 
 /* #region main */
+.box{
+    background-color: blueviolet;
+    text-align: center;
+}
 
+#section2 {
+    display: flex;
+    justify-content: center;
+}
+
+#section3 {
+    display: flex;
+    justify-content: center;
+}
+
+#section4{
+    display: flex;
+    justify-content: center;
+}
+
+.inside_box1{
+    flex-grow: 3;
+    background-color: lightblue;
+}
+
+.inside_box2 {
+    flex-grow: 1;
+    background-color: lightcoral;
+}
 
 /* #endregion main */
 
